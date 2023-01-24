@@ -1,7 +1,7 @@
 {
   "name": "Tensorflow Dev Container",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {"ghcr.io/devcontainers/features/terraform:1": {}, 
+  "features": { 
 		"git": {
 			"version": "os-provided"
 		}, "ghcr.io/devcontainers-contrib/features/ffmpeg-homebrew:1": {}
