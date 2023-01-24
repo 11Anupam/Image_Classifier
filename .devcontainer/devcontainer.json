@@ -1,4 +1,5 @@
 {
+  "name": "Tensorflow Dev Container",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {"ghcr.io/devcontainers/features/terraform:1": {}, 
 		"git": {
