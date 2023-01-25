@@ -1,9 +1,10 @@
 {
-  "name": "Tensorflow Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": { 
-		"git": {
-			"version": "os-provided"
-		}, "ghcr.io/devcontainers-contrib/features/ffmpeg-homebrew:1": {}
-  }
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["streetsidesoftware.code-spell-checker"]
+    }
+  },
+  "forwardPorts": [3000]
 }
